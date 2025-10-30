@@ -1,0 +1,31 @@
+.button {
+  display: inline-block;
+  background-color: #A3320B;
+  color: #FFF8F0;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 8px;
+  font-weight: 700;
+  text-decoration: none;
+  cursor: pointer;
+  transition: transform 0.2s ease, box-shadow 0.2s ease, background-color 0.2s ease;
+  box-shadow: 0 6px 14px rgba(0, 0, 0, 0.15);
+}
+
+.button:hover {
+  background-color: #F08700;
+  transform: translateY(-2px);
+  box-shadow: 0 10px 22px rgba(0, 0, 0, 0.22);
+}
+
+.button:active {
+  background-color: #2B2D42;
+  transform: translateY(0);
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.18);
+}
+
+.button-lg {
+  padding: 12px 26px;
+  border-radius: 10px;
+  font-size: 1.05rem;
+}
