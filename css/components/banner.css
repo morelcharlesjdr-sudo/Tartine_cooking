@@ -9,7 +9,7 @@
   color: #FFF8F0;
   overflow: hidden;
 }
-.banner-home { background-image: url("images/background.jpg"); }
+.banner-home { background-image: url("../images/background.jpg"); }
 .banner::before {
   content: "";
   position: absolute;
@@ -20,3 +20,4 @@
 .banner h1 { margin: 0 0 12px; font-size: 2.6rem; line-height: 1.2; }
 .banner p { margin: 0 0 22px; font-size: 1.1rem; color: #FFF8F0; }
 @media (max-width: 768px) { .banner{height:360px;} .banner h1{font-size:2.2rem;} }
+
